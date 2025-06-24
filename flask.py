@@ -12,4 +12,4 @@ def signup():    #signup function defines what to do when /signup is accessed
   if request.method == 'POST':   #if the user has clicked the submit button which POST
     user = request.form.get('username')
     pass = request.form.get('password')
-    user.append.('user':user, 'pass':pass)  #adds user and pass to the users list as a dictionary value. So the list would look like ['user':'bob','pass':'bob123']
+    users.append.('user':user, 'pass':pass)  #adds user and pass to the users list as a dictionary value. So the list would look like ['user':'bob','pass':'bob123']
