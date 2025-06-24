@@ -25,6 +25,6 @@ def login():
             if user['username'] == username and user['password'] == password:
                 return redirect(url_for('dashboard'))
               
-      return "<h1>There is no account matching. Try again</h1>"
+    return "<h1>There is no account matching. Try again</h1>"
 
   return render_template('login.html')
