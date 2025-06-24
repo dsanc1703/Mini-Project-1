@@ -1,0 +1,5 @@
+When running the python,
+
+1. Create your own virtual environment with python -m venv venv (Windows)
+2. Activate your virtual envirovment venv\Scripts\activate (Windows)
+3. Within the venv, run the app
