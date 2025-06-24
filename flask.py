@@ -13,3 +13,5 @@ def signup():    #signup function defines what to do when /signup is accessed
     user = request.form.get('username')
     pass = request.form.get('password')
     users.append.('user':user, 'pass':pass)  #adds user and pass to the users list as a dictionary value. So the list would look like ['user':'bob','pass':'bob123']
+    return '<h2>Thanks for signing up, ' + user + '!</h2>' #a confirmation message for the user
+
