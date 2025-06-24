@@ -1,0 +1,33 @@
+body {
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  min-height: 50px;
+  background: PapayaWhip;
+}
+
+main {
+  flex: 1;
+}
+body {
+  font: 13px "Helvetica Neue", "Lucida Grande", "Arial";
+  background: #C2EFEB -webkit-gradient(linear, 100% 0%, 0% 0%, from(#fff), to(#C2EFEB));
+  background: #C2EFEB -moz-linear-gradient(top, #fff, #C2EFEB);
+  background-repeat: no-repeat;
+  color: #555;
+}
+
+
+.user{
+    border: 100px;
+}
+.pass{
+    border-top: 100px;
+}
+footer {
+    color: #331E36;
+}
