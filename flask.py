@@ -28,3 +28,7 @@ def login():
     return "<h1>There is no account matching. Try again</h1>"
 
   return render_template('login.html')
+
+@app.route('/dashboard', methods=['GET'])
+def dashboard():
+  return render_template('dashboard.html')
