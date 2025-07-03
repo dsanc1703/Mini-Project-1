@@ -13,7 +13,7 @@ def signup():    #signup function defines what to do when /signup is accessed
     username = request.form.get('username')
     password = request.form.get('password')
     users.append({'username':username, 'password':password})  #adds user and pass to the users list as a dictionary value. So the list would look like ['user':'bob','pass':'bob123']
-    return render_template('login.html')
+    return redirect(url_for('login'))
     #return '<h2>Thanks for signing up, ' + username + '!</h2>' #a confirmation message for the user
   return render_template('signup.html')  #When user enters /signup, this line loads the html for signup
 
